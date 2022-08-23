@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@300;400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background-color: darkseagreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.watch-container {
+    background-color: #42855B;
+    padding: 1em;
+    width: 40%;
+    height: 40%;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.stop-watch {
+    /* background-color: cadetblue; */
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 70%;
+    
+}
+button {
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    padding: 0.7em;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5em;
+    background-color: #A62349;
+    color: aliceblue;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+
+}
+h2 {
+    color: white;
+    font-size: 2.6rem;
+}
+button:hover {
+    box-shadow: 1px 1px 10px #B9005B;
+}
+.watch-container:hover {
+    box-shadow: 1px 1px  20px 2px black;
+}
